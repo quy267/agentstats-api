@@ -1,0 +1,392 @@
+2016-10-04 15:00:07,821 ERROR: HTTP_STATUS_CODE_405: {'message': 'Method Not Allowed.', 'code': 405} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+MethodNotAllowed: 405: Method Not Allowed
+2016-10-04 15:01:41,594 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 109, in list_agents
+    return jsonify(result)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 238, in jsonify
+    indent=indent),
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 126, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/usr/lib/python2.7/json/__init__.py", line 250, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 83, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: ObjectId('57f2201e3da9da5300de8dfd') is not JSON serializable
+2016-10-04 15:08:25,880 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 110, in list_agents
+    return jsonify(result)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 238, in jsonify
+    indent=indent),
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 126, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/usr/lib/python2.7/json/__init__.py", line 250, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 83, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: ObjectId('57f2201e3da9da5300de8dfd') is not JSON serializable
+2016-10-04 15:09:14,063 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 110, in list_agents
+    return jsonify(result)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 238, in jsonify
+    indent=indent),
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 126, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/usr/lib/python2.7/json/__init__.py", line 250, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 83, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: ObjectId('57f2201e3da9da5300de8dfd') is not JSON serializable
+2016-10-04 15:09:15,633 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 110, in list_agents
+    return jsonify(result)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 238, in jsonify
+    indent=indent),
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 126, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/usr/lib/python2.7/json/__init__.py", line 250, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python2.7/dist-packages/flask/json.py", line 83, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: ObjectId('57f2201e3da9da5300de8dfd') is not JSON serializable
+2016-10-04 15:44:36,255 ERROR: HTTP_STATUS_CODE_401: {u'message': u'Bearer token scope not valid.', u'code': 401} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 49, in decorated
+    return abort(code, content['error'])
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/exceptions.py", line 605, in __call__
+    raise self.mapping[code](*args, **kwargs)
+Unauthorized: 401: Unauthorized
+2016-10-04 15:44:43,441 ERROR: HTTP_STATUS_CODE_401: {u'message': u'Bearer token scope not valid.', u'code': 401} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 49, in decorated
+    return abort(code, content['error'])
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/exceptions.py", line 605, in __call__
+    raise self.mapping[code](*args, **kwargs)
+Unauthorized: 401: Unauthorized
+2016-10-04 15:44:46,275 ERROR: HTTP_STATUS_CODE_401: {u'message': u'Bearer token scope not valid.', u'code': 401} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 49, in decorated
+    return abort(code, content['error'])
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/exceptions.py", line 605, in __call__
+    raise self.mapping[code](*args, **kwargs)
+Unauthorized: 401: Unauthorized
+2016-10-06 16:59:54,344 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 73, in add_agent
+    json_data = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2016-10-06 17:00:31,911 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 73, in add_agent
+    json_data = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2016-10-06 17:01:38,019 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 73, in add_agent
+    json_data = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2016-10-06 17:07:07,715 ERROR: HTTP_STATUS_CODE_400: {'message': 'Duplicate 10.10.0.1 & VTT', 'code': 1005} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 79, in add_agent
+    raise exceptions.BadRequest(1005, ip, group)
+BadRequest
+2016-10-06 17:07:42,465 ERROR: HTTP_STATUS_CODE_400: {'message': 'Duplicate Agent IP & Group', 'code': 1005} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 79, in add_agent
+    raise exceptions.BadRequest(1005, 'Agent IP & Group')
+BadRequest
+2016-10-10 10:58:19,811 ERROR: HTTP_STATUS_CODE_400: {'message': 'Duplicate Agent IP & Group', 'code': 1005} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 107, in add_agent
+    raise exceptions.BadRequest(1005, 'Agent IP & Group')
+BadRequest
+2016-10-10 11:30:29,879 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 160, in edit_agent
+    'ossec': json_data.get('ossec', data[0].get('ossec', 0)),
+KeyError: 0
+2016-10-10 11:30:59,153 ERROR: HTTP_STATUS_CODE_500: {'message': 'Internal Server Error.', 'code': 500} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 160, in edit_agent
+    'ossec': json_data.get('ossec', data[0].get('ossec', 0)),
+KeyError: 0
+2016-10-10 11:38:46,153 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 148, in edit_agent
+    json_data = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2016-10-10 11:43:34,439 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/PycharmProjects/agentstats-api/app/api/agent.py", line 148, in edit_agent
+    json_data = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2016-10-10 14:07:17,635 ERROR: HTTP_STATUS_CODE_401: {'message': 'You do not have permission to access', 'code': 2000} [in /home/huydq17/PycharmProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 50, in decorated
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask_permissions/permissions/__init__.py", line 56, in decorated
+    return abort(401, {'code': 2000, 'message': 'You do not have permission to access'})
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/exceptions.py", line 605, in __call__
+    raise self.mapping[code](*args, **kwargs)
+Unauthorized: 401: Unauthorized
+2017-06-16 17:34:25,956 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/GitProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 37, in decorated
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask_permissions/permissions/__init__.py", line 57, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/GitProjects/agentstats-api/app/api/minion.py", line 40, in list_minions
+    args = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2017-06-16 17:36:20,414 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/GitProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 37, in decorated
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask_permissions/permissions/__init__.py", line 57, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/GitProjects/agentstats-api/app/api/minion.py", line 40, in list_minions
+    args = parser.parse(params)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity
+2017-06-16 17:38:07,983 ERROR: HTTP_STATUS_CODE_422: {'message': 'Validation error, re-check your data.', 'code': 422} [in /home/huydq17/GitProjects/agentstats-api/app/exceptions.py:191]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_oauth2/resources/__init__.py", line 37, in decorated
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask_permissions/permissions/__init__.py", line 57, in decorated
+    return f(*args, **kwargs)
+  File "/home/huydq17/GitProjects/agentstats-api/app/api/minion.py", line 40, in list_minions
+    params['group'] = [group]
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 330, in parse
+    self._on_validation_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/core.py", line 279, in _on_validation_error
+    self.handle_error(error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 99, in handle_error
+    abort(status_code, messages=error.messages, exc=error)
+  File "/usr/local/lib/python2.7/dist-packages/webargs/flaskparser.py", line 39, in abort
+    raise err
+UnprocessableEntity: 422: Unprocessable Entity

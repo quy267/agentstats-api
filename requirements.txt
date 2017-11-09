@@ -1,0 +1,12 @@
+MarkupSafe
+setuptools
+Werkzeug
+Jinja2
+itsdangerous
+Flask
+nose
+Flask-Script
+pymongo
+Flask-PyMongo
+Flask-Negotiate
+requests
