@@ -11,6 +11,7 @@ from exceptions import api_error_handler
 # Import API module
 import api.agent
 import api.minion
+import api.account
 
 # Config
 from . import DEFAULT_CONFIG_CLASS, DEFAULT_APPLICATION_CONFIG_FILE, DEFAULT_GLOBAL_CONFIG_FILE, load_module
@@ -69,6 +70,7 @@ def configure_blueprints(app):
     """
     app.register_blueprint(api.agent.api)
     app.register_blueprint(api.minion.api)
+    app.register_blueprint(api.account.api)
 
 
 def configure_log_handlers(app):

@@ -7,6 +7,7 @@ from marshmallow import fields
 
 api = Blueprint('api_agent', __name__, url_prefix='/api/v1/agent')
 
+
 # Agent Status ********************************************************************************************************
 # List agent
 @api.route('/find', methods=['POST'])
